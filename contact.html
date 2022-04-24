@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon/icon1.jpg" type="image/x-icon" />
+    <title>ĐỒ ÁN CUỐI KÌ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="main grid">
+        <!-- Header -->
+        <header class="header">
+            <div class="header__sidebar hide-on-mobile">
+                <a href="./index.html" class="header__sidebar-logo">VKU</a>
+            </div>
+            <div class="header__container">
+                <button class="header__container-btn btn--expand">
+                    <i class="fas fa-bars header__btn-icon"></i>
+                </button>
+                <div class="header__sidebar sub-header">
+                    <a href="./index.html" class="header__sidebar-logo">VKU</a>
+                </div>
+                <button class="header__container-btn btn--user">
+                    <i class="fas fa-user header__btn-icon"></i>
+                </button>
+            </div>
+        </header>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar__nav">
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="#" class="sidebar__container-link">
+                            <i class="fa fa-edit sidebar__container-icon"></i>
+                            <span class="sidebar__container-content">Biểu mẫu</span>
+                        </a>
+                        <i class="fas fa-chevron-right sidebar__item-icon btn--expand-subnav"></i>
+                    </div>
+                    <div class="sidebar__subnav">
+                        <div class="sidebar__subnav-item">
+                            <a href="./dormitoryRegister.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Đăng ký nội trú KTX</span>
+                            </a>
+                        </div>
+                        <div class="sidebar__subnav-item">
+                            <a href="./roomBill.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Thanh toán tiền phòng</span>
+                            </a>
+                        </div>
+                        <div class="sidebar__subnav-item">
+                            <a href="./electricityBill.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Thanh toán tiền điện</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="./construction.html" class="sidebar__container-link">
+                            <i class="far fa-file-code sidebar__container-icon" style="font-size: 2.2rem;"></i>
+                            <span class="sidebar__container-content">Hướng dẫn</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="./priceList.html" class="sidebar__container-link">
+                            <i class="far fa-credit-card sidebar__container-icon"></i>
+                            <span class="sidebar__container-content">Bảng giá</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item active">
+                    <div class="sidebar__item-container">
+                        <a href="./contact.html" class="sidebar__container-link">
+                            <i class="far fa-comment-dots sidebar__container-icon" style="font-size: 2rem;"></i>
+                            <span class="sidebar__container-content">Liên hệ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container -->
+        <div class="container active">
+            <div class="container__header mb-30">
+                <div>
+                    <div class="container__header-logo">
+                        <i class="far fa-comment-dots container__header-logo-icon"></i>
+                        <div class="container__header-logo-content">&nbsp;Liên hệ</div>
+                    </div>
+                    <p class="container__header-description">Cung cấp giải pháp quản lý toàn diện người dùng.</p>
+                </div>
+                <ul class="container__breadcrumb">
+                    <li class="breadcrumb__item">
+                        <i class="fas fa-home"></i>
+                        <span>/</span>
+                    </li>
+                    <li class="breadcrumb__item">
+                        <a href="#" class="breadcrumb__item-link is-ghost">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__section mb-30">
+                <div class="container__section-content container--contact">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col l-6 m-12 c-12">
+                                <div class="content__noti">
+                                    <div class="content__noti-message message--notify">
+                                        <span>Liên hệ với chúng tôi</span>
+                                    </div>
+                                    <div class="content__contact-list mt-30">
+                                        <div class="content__contact-item mb-16">
+                                            <div class="contact__item-icon">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div class="contact__item-info">
+                                                <span class="contact__info-title mb-4">Địa chỉ: </span>
+                                                <div class="contact__info-name">
+                                                    <span class="mb-8 is-active">Đường 470 Trần Đại, quận Ngũ Hành Sơn, thành phố Đà Nẵng</span>    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="content__contact-item mb-16">
+                                            <div class="contact__item-icon">
+                                                <i class="fas fa-phone"></i>
+                                            </div>
+                                            <div class="contact__item-info">
+                                                <span class="contact__info-title mb-4">Phone: </span>
+                                                <div class="contact__info-name">
+                                                    <span class="mb-8 is-active">(+84) 84 204 0902</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="content__contact-item mb-16">
+                                            <div class="contact__item-icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div class="contact__item-info">
+                                                <span class="contact__info-title mb-4">Email: </span>
+                                                <div class="contact__info-name">
+                                                    <span class="mb-8 is-active">phnhi20it12@vku.udn.vn</span>
+                                                    <span class="mb-8 is-active">ntpanh20it12@vku.udn.vn</span>
+                                                    <span class="mb-8 is-active">mtkmy20it12@vku.udn.vn</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-12 c-12">
+                                <div class="content__noti">
+                                    <div class="content__noti-message message--contact">
+                                        <span>Để lại lời nhắn của bạn</span>
+                                    </div>
+                                    <form action="POST" class="grid content__form mt-30" id="contact-form">
+                                        <div class="container__section-container mb-26">
+                                            <div class="grid">
+                                                <div class="row">
+                                                    <div class="col l-12 m-12 c-12 mb-16">
+                                                        <div class="form-group">
+                                                            <input id="contactid" name="contactid" type="text" placeholder="Họ và Tên" class="form-control form-control--contact">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12 c-12 mb-16">
+                                                        <div class="form-group">
+                                                            <input id="contactphone" name="contactphone" type="tel" placeholder="Số điện thoại" class="form-control form-control--contact">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12 c-12 mb-16">
+                                                        <div class="form-group">
+                                                            <input id="contactemail" name="contactemail" type="email" placeholder="Email" class="form-control form-control--contact">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12 c-12 mb-16">
+                                                        <div class="form-group">
+                                                            <textarea id="contactmessage" name="contactmessage" placeholder="Để lại lời nhắn cho chúng tôi" class="form-control form-control--contact input--message"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container__section-submit mb-20">
+                                            <button class="btn form-btn btn--primary">
+                                                <i class="fas fa-paper-plane"></i>
+                                                <span>Gửi Tin Nhắn</span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

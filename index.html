@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon/icon1.jpg" type="image/x-icon" />
+    <title>ĐỒ ÁN CUỐI KÌ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="main grid">
+        <!-- Header -->
+        <header class="header">
+            <div class="header__sidebar hide-on-mobile">
+                <a href="./index.html" class="header__sidebar-logo">VKU</a>
+            </div>
+            <div class="header__container">
+                <button class="header__container-btn btn--expand">
+                    <i class="fas fa-bars header__btn-icon"></i>
+                </button>
+                <div class="header__sidebar sub-header">
+                    <a href="./index.html" class="header__sidebar-logo">VKU</a>
+                </div>
+                <button class="header__container-btn btn--user">
+                    <i class="fas fa-user header__btn-icon"></i>
+                </button>
+            </div>
+        </header>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar__nav">
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="#" class="sidebar__container-link">
+                            <i class="fa fa-edit sidebar__container-icon"></i>
+                            <span class="sidebar__container-content">Biểu mẫu</span>
+                        </a>
+                        <i class="fas fa-chevron-right sidebar__item-icon btn--expand-subnav"></i>
+                    </div>
+                    <div class="sidebar__subnav">
+                        <div class="sidebar__subnav-item">
+                            <a href="./dormitoryRegister.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Đăng ký nội trú KTX</span>
+                            </a>
+                        </div>
+                        <div class="sidebar__subnav-item">
+                            <a href="./roomBill.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Thanh toán tiền phòng</span>
+                            </a>
+                        </div>
+                        <div class="sidebar__subnav-item">
+                            <a href="./electricityBill.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Thanh toán tiền điện</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="./construction.html" class="sidebar__container-link">
+                            <i class="far fa-file-code sidebar__container-icon" style="font-size: 2.2rem;"></i>
+                            <span class="sidebar__container-content">Hướng dẫn</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="./priceList.html" class="sidebar__container-link">
+                            <i class="far fa-credit-card sidebar__container-icon"></i>
+                            <span class="sidebar__container-content">Bảng giá</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="./contact.html" class="sidebar__container-link">
+                            <i class="far fa-comment-dots sidebar__container-icon" style="font-size: 2rem;"></i>
+                            <span class="sidebar__container-content">Liên hệ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container -->
+        <div class="container tab-home active" id="tab-home">
+            <div class="container__header mb-30">
+                <div>
+                    <div class="container__header-logo">
+                        <i class="fas fa-home container__header-logo-icon"></i>
+                        <div class="container__header-logo-content">&nbsp;Trang chủ</div>
+                    </div>
+                    <p class="container__header-description">Trang web của Trường Đại Học CNTT và Truyền Thông Việt Hàn
+                    </p>
+                </div>
+            </div>
+            <div class="container__section mb-60">
+                <div class="container__section-content">
+                    <div class="container__content-logo">
+                        <div class="container__content-logo-img"
+                            style="background: url('./assets/img/background/background.jpg') no-repeat center center / cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__copyright mb-20">
+                        <span>Copyright</span>
+                        <i class="far fa-copyright"></i>
+                        <span>2017-2021 - Trường Đại học Công nghệ Thông tin & Truyền Thông Việt - Hàn, Đại học Đà Nẵng</span>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__info-item">
+                            <span class="footer__item-title">Địa chỉ:&nbsp;</span>
+                            <p class="footer__item-name">Khu đô thị Đại học Đà Nẵng, Đường Nam Kỳ Khởi Nghĩa, Quận Ngũ Hành Sơn, Thành phố Đà Nẵng</p>
+                        </div>
+                        <div class="footer__info-item">
+                            <div class="footer__item-contact">
+                                <span class="footer__item-title">Điện thoại:&nbsp;</span>
+                                <p class="footer__item-name">0236.6.552.688</p>&nbsp;-&nbsp;
+                                <p class="footer__item-name">02363667113</p>
+                            </div>
+                            <div class="footer__item-contact">
+                                <span class="footer__item-title">Email:&nbsp;</span>
+                                <p class="footer__item-name">daotao@vku.udn.vn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

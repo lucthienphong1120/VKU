@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon/icon1.jpg" type="image/x-icon" />
+    <title>ĐỒ ÁN CUỐI KÌ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="main grid">
+        <!-- Header -->
+        <header class="header">
+            <div class="header__sidebar hide-on-mobile">
+                <a href="./index.html" class="header__sidebar-logo">VKU</a>
+            </div>
+            <div class="header__container">
+                <button class="header__container-btn btn--expand">
+                    <i class="fas fa-bars header__btn-icon"></i>
+                </button>
+                <div class="header__sidebar sub-header">
+                    <a href="./index.html" class="header__sidebar-logo">VKU</a>
+                </div>
+                <button class="header__container-btn btn--user">
+                    <i class="fas fa-user header__btn-icon"></i>
+                </button>
+            </div>
+        </header>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar__nav">
+                <div class="sidebar__nav-item active">
+                    <div class="sidebar__item-container">
+                        <a href="#" class="sidebar__container-link">
+                            <i class="fa fa-edit sidebar__container-icon"></i>
+                            <span class="sidebar__container-content">Biểu mẫu</span>
+                        </a>
+                        <i class="fas fa-chevron-right sidebar__item-icon btn--expand-subnav"></i>
+                    </div>
+                    <div class="sidebar__subnav">
+                        <div class="sidebar__subnav-item">
+                            <a href="./dormitoryRegister.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Đăng ký nội trú KTX</span>
+                            </a>
+                        </div>
+                        <div class="sidebar__subnav-item">
+                            <a href="./roomBill.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Thanh toán tiền phòng</span>
+                            </a>
+                        </div>
+                        <div class="sidebar__subnav-item active">
+                            <a href="./electricityBill.html" class="subnav__container-link">
+                                <span class="subnav__item-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                <span class="subnav__item-content">Thanh toán tiền điện</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="./construction.html" class="sidebar__container-link">
+                            <i class="far fa-file-code sidebar__container-icon" style="font-size: 2.2rem;"></i>
+                            <span class="sidebar__container-content">Hướng dẫn</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="./priceList.html" class="sidebar__container-link">
+                            <i class="far fa-credit-card sidebar__container-icon"></i>
+                            <span class="sidebar__container-content">Bảng giá</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar__nav-item">
+                    <div class="sidebar__item-container">
+                        <a href="./contact.html" class="sidebar__container-link">
+                            <i class="far fa-comment-dots sidebar__container-icon" style="font-size: 2rem;"></i>
+                            <span class="sidebar__container-content">Liên hệ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container -->
+        <div class="container active">
+            <div class="container__header mb-30">
+                <div>
+                    <div class="container__header-logo">
+                        <i class="fas fa-dollar-sign container__header-logo-icon"></i>
+                        <div class="container__header-logo-content">&nbsp;Thanh toán tiền điện</div>
+                    </div>
+                    <p class="container__header-description">Thanh toán theo từng phòng</p>
+                </div>
+                <ul class="container__breadcrumb">
+                    <li class="breadcrumb__item">
+                        <i class="fas fa-home"></i>
+                        <span>/</span>
+                    </li>
+                    <li class="breadcrumb__item">
+                        Biểu mẫu
+                        <span>/</span>
+                    </li>
+                    <li class="breadcrumb__item">
+                        <a href="#" class="breadcrumb__item-link is-ghost">Thanh toán tiền điện</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__section mb-30">
+                <div class="container__section-content">
+                    <form action="POST" class="grid content__form" id="search-dormitory-form">
+                        <div class="container__section-container mb-16">
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col l-5 m-12 c-12">
+                                        <div class="form-group">
+                                            <label for="searchdormitory" class="form-label mb-8">Ký túc xá</label>
+                                            <select id="searchdormitory" name="searchdormitory" rules="required"
+                                                class="form-control">
+                                                <option value="1">Ký túc xá Trần Hưng Đạo</option>
+                                                <option value="2">Ký túc xá Nguyễn Chí Thanh</option>
+                                                <option value="3">Ký túc xá Vĩnh Long</option>
+                                            </select>
+                                            <span class="form-message"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-12 c-12 mb-16">
+                                        <div class="form-group">
+                                            <label for="searchroom" class="form-label mb-8">Phòng</label>
+                                            <input id="searchroom" name="searchroom" type="text" placeholder="Phòng"
+                                                rules="required" class="form-control">
+                                            <span class="form-message"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-12 c-12">
+                                        <div class="container__section-submit">
+                                            <button class="btn form-btn btn--primary btn--search">
+                                                <i class="fas fa-search"></i>
+                                                <span>Tìm kiếm</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container__section mb-60">
+                <div class="container__section-content">
+                    <div class="container__section-container has-border mb-26">
+                        <h2 class="section__header-title">Kết quả tìm kiếm</h2>
+                    </div>
+                    <div class="container__section-container mb-26">
+                        <ul class="section__result">
+                            <li class="section__result-header">
+                                <div class="result__header-item">
+                                    <span>Tên phòng</span>
+                                </div>
+                                <div class="result__header-item">
+                                    <span>Số nhà</span>
+                                </div>
+                            </li>
+                            <li class="section__result-item">
+                                <div class="row">
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-room">A391</span>
+                                    </div>
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-address">73 đường Hai Bà Trưng, Quận 1, Thành phố Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="section__result-item">
+                                <div class="row">
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-room">A391</span>
+                                    </div>
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-address">73 đường Hai Bà Trưng, Quận 1, Thành phố Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="section__result-item">
+                                <div class="row">
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-room">A391</span>
+                                    </div>
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-address">73 đường Hai Bà Trưng, Quận 1, Thành phố Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="section__result-item">
+                                <div class="row">
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-room">A391</span>
+                                    </div>
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-address">73 đường Hai Bà Trưng, Quận 1, Thành phố Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="section__result-item">
+                                <div class="row">
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-room">A391</span>
+                                    </div>
+                                    <div class="result__item-detail">
+                                        <span class="result__detail-address">73 đường Hai Bà Trưng, Quận 1, Thành phố Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__copyright mb-20">
+                        <span>Copyright</span>
+                        <i class="far fa-copyright"></i>
+                        <span>2017-2021 - Trường Đại học Công nghệ Thông tin & Truyền Thông Việt - Hàn, Đại học Đà Nẵng</span>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__info-item">
+                            <span class="footer__item-title">Địa chỉ:&nbsp;</span>
+                            <p class="footer__item-name">Khu đô thị Đại học Đà Nẵng, Đường Nam Kỳ Khởi Nghĩa, Quận Ngũ Hành Sơn, Thành phố Đà Nẵng</p>
+                        </div>
+                        <div class="footer__info-item">
+                            <div class="footer__item-contact">
+                                <span class="footer__item-title">Điện thoại:&nbsp;</span>
+                                <p class="footer__item-name">0236.6.552.688</p>&nbsp;-&nbsp;
+                                <p class="footer__item-name">02363667113</p>
+                            </div>
+                            <div class="footer__item-contact">
+                                <span class="footer__item-title">Email:&nbsp;</span>
+                                <p class="footer__item-name">daotao@vku.udn.vn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./js/validator.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+        // Validate form
+        var searchDormitoryForm = new Validator('#search-dormitory-form')
+    </script>
+
+</body>
+
+</html>
